@@ -58,7 +58,7 @@ public class TestAssured {
 
     @Test
     @Tags({@Tag("PostRequest"), @Tag("Positive")})
-    void checkPostRegis1ter() {
+    void checkPostUsers() {
         given()
                 .baseUri("https://reqres.in/")
                 .contentType(JSON)
